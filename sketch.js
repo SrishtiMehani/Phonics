@@ -13,6 +13,7 @@ function setup(){
   s.scale=0.5
   t = createSprite(100,45,30,50);
   t.addImage(imgT)
+  t.scale=0.5;
   grp = new Group ();
   reset = createSprite(700,350,20,30)
   
