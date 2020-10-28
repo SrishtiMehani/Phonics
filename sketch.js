@@ -34,7 +34,7 @@ function preload()
 }
 
 function setup(){
-  createCanvas(800,800);
+  createCanvas(800,600);
  
   s = createSprite(24,45,30,50);
   s.addImage(imgS)
@@ -142,7 +142,7 @@ function setup(){
   q.addImage(imgQ)
   q.scale = 0.5
 
- butterfly = createSprite(270, 573,700,50);
+ butterfly = createSprite(270, 473,700,50);
   butterfly.addImage(imgButterfly)
   butterfly.scale = 0.12
 
@@ -154,7 +154,7 @@ function setup(){
 
   grp = new Group ();
   
-  reset = createSprite(600,600,100,30)
+  reset = createSprite(600,500,100,30)
   reset.addImage(imgClear)
   reset.scale = 0.3
   
@@ -169,7 +169,7 @@ function draw(){
   //set background color 
   background("white");
   fill("white")
-  rect(10,226,520,400);
+  rect(10,226,520,300);
   fill("black")
   
   drawSprites();
