@@ -60,11 +60,11 @@ function setup(){
   n.addImage(imgN)
   n.scale = 0.5
   
-  c = createSprite(260,45,30,50);
+  c = createSprite(264,45,30,50);
   c.addImage(imgC)
   c.scale = 0.5
   
-  k = createSprite(300,45,30,50);
+  k = createSprite(304,45,30,50);
   k.addImage(imgK)
   k.scale = 0.5
   
@@ -184,7 +184,7 @@ function mouseClicked()
         grp.add(fs)
         fs.addImage(imgS)
         fs.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
       else if (mouseIsOver(t)) {
@@ -192,7 +192,7 @@ function mouseClicked()
         grp.add(ft)
         ft.addImage(imgT)
         ft.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
       else if (mouseIsOver(a)) {
@@ -200,7 +200,7 @@ function mouseClicked()
         grp.add(fa)
         fa.addImage(imgA)
         fa.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
       else if (mouseIsOver(b)) {
@@ -208,14 +208,14 @@ function mouseClicked()
         grp.add(fb)
         fb.addImage(imgB)
         fb.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       else if (mouseIsOver(c)) {
         fc = createSprite(fxx,300,30,50);
         grp.add(fc)
         fc.addImage(imgC)
         fc.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
       
@@ -225,7 +225,7 @@ function mouseClicked()
         grp.add(fd)
         fd.addImage(imgD)
         fd.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
        
@@ -234,7 +234,7 @@ function mouseClicked()
         grp.add(fe)
         fe.addImage(imgE)
         fe.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(f)) {
@@ -242,7 +242,7 @@ function mouseClicked()
         grp.add(ff)
         ff.addImage(imgF)
         ff.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(g)) {
@@ -250,7 +250,7 @@ function mouseClicked()
         grp.add(fg)
         fg.addImage(imgG)
         fg.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(h)) {
@@ -258,7 +258,7 @@ function mouseClicked()
         grp.add(fh)
         fh.addImage(imgH)
         fh.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(i)) {
@@ -266,7 +266,7 @@ function mouseClicked()
         grp.add(fi)
         fi.addImage(imgI)
         fi.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(j)) {
@@ -274,7 +274,7 @@ function mouseClicked()
         grp.add(fj)
         fj.addImage(imgJ)
         fj.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(k)) {
@@ -282,7 +282,7 @@ function mouseClicked()
         grp.add(fk)
         fk.addImage(imgK)
         fk.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(l)) {
@@ -290,7 +290,7 @@ function mouseClicked()
         grp.add(fl)
         fl.addImage(imgL)
         fl.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(m)) {
@@ -298,7 +298,7 @@ function mouseClicked()
         grp.add(fm)
         fm.addImage(imgM)
         fm.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(n)) {
@@ -306,7 +306,7 @@ function mouseClicked()
         grp.add(fn)
         fn.addImage(imgN)
         fn.scale= 0.5;
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(o)) {
@@ -314,7 +314,7 @@ function mouseClicked()
         grp.add(fo)
         fo.addImage(imgO)
         fo.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(p)) {
@@ -322,7 +322,7 @@ function mouseClicked()
         grp.add(fp)
         fp.addImage(imgP)
         fp.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(q)) {
@@ -330,7 +330,7 @@ function mouseClicked()
         grp.add(fq)
         fq.addImage(imgQ)
         fq.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(r)) {
@@ -338,7 +338,7 @@ function mouseClicked()
         grp.add(fr)
         fr.addImage(imgR)
         fr.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(u)) {
@@ -346,7 +346,7 @@ function mouseClicked()
         grp.add(fu)
         fu.addImage(imgU)
         fu.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(v)) {
@@ -354,7 +354,7 @@ function mouseClicked()
         grp.add(fv)
         fv.addImage(imgV)
         fv.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(w)) {
@@ -362,7 +362,7 @@ function mouseClicked()
         grp.add(fw)
         fw.addImage(imgW)
         fw.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
        
       else if (mouseIsOver(x)) {
@@ -370,7 +370,7 @@ function mouseClicked()
         grp.add(fx)
         fx.addImage(imgX)
         fx.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
       else if (mouseIsOver(y)) {
@@ -378,14 +378,14 @@ function mouseClicked()
         grp.add(fy)
         fy.addImage(imgY)
         fy.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       else if (mouseIsOver(z)) {
         fz = createSprite(fxx,300,30,50);
         grp.add(fz)
         fz.addImage(imgZ)
         fz.scale=0.5
-        fxx+=50; 
+        fxx+=40; 
       }
       
       
